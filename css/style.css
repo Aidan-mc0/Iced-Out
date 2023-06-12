@@ -62,7 +62,7 @@ header li {
 }
 .content {
   margin: 0 auto;
-  padding: 50px;
+  padding: 25px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -71,8 +71,9 @@ button {
   padding: 15px;
   background-color: #BCE3E6;
   color: white;
-  font-size: 15pt;
+  font-size: 16pt;
   border-radius: 4px;
+  font-family: 'Jost', sans-serif;
 }
 button:hover, button:focus, button:active {
   color: #EBF5FF;
@@ -82,14 +83,14 @@ button:hover, button:focus, button:active {
 }
 .heroImg p {
   color: white;
-  font-size: 24pt;
+  font-size: 28pt;
   font-family: 'Hind Guntur', sans-serif;
 }
 /*about/app screenshots section*/
 .heading {
   text-align: center;
   padding: 15px 5px;
-  font-size: 36px;
+  font-size: 30px;
   background-color: #F3F1EE;
 }
 .flexContainer {
@@ -97,18 +98,23 @@ button:hover, button:focus, button:active {
   flex-wrap: wrap;
   padding: 60px 30px;
   background-color: #F3F1EE;
+  justify-content: center;
 }
 .flexContainer div {
   width: 33%;
   padding: 25px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
+.flexContainer h3 {
+  color:#7BAF9E
+}
 .about p {
-  padding-left: 10px;
+  padding-left: 100px;
   padding-right: 100px;
   text-align: center;
+  font-size: 18pt;
 }
 /*features section*/
 .features{
@@ -122,14 +128,14 @@ button:hover, button:focus, button:active {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  max-width: 50%;
+  max-width: 45%;
 }
 .features h3{
   color: #13293D;
   font-size: 24pt;
 }
 .features p{
-  font-size:16pt;
+  font-size:18pt;
 }
 /*footer css*/
 footer {
@@ -146,11 +152,18 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
   font-family: 'Hind Guntur', sans-serif;
-  font-size: 16pt;
+  font-size: 18pt;
 }
-.policy{
+.policy {
+  padding-top: 25px;
   padding-left: 25px;
   padding-bottom: 25px;
+}
+.smallLogo {
+  padding-top: 25px;
+}
+.utility {
+  padding-top: 10px;
 }
 /*footer grid*/
 .item1 {grid-area: left;}
