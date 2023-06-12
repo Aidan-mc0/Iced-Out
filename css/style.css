@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    background-color: #F3F1EE;
+  }
+  header {
+    background-color: #000000;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  .smallLogo {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  h1{
+    color:#BCE3E6;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 60pt;
+      
+  }
+  .content h1{
+    color:#7BAF9E;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 60pt;
+  }
+  h2{
+    color:#7BAF9E;
+    font-family: 'Hind Guntur', sans-serif;
+      font-size: 24pt;
+  }
+  h3{
+    color:#BCE3E6;
+    font-family: 'Hind Guntur', sans-serif;
+      font-size: 24pt;
+  }
+  .heroImg {
+    justify-content: center;
+    background-color: #F3F1EE;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/heroImage.png');
+    align-items: center;
+    position: relative;
+    width:100%;
+    max-height: 980px;
+  }
+  .content {
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #BCE3E6;
+    color: white;
+    font-size: 15pt;
+    border-radius: 4px;
+  }
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #7BAF9E;  
+    cursor: pointer; /* displays a hand */
+    transform: scale(1.2);
+  }
+  footer {
+    background-color: #000000;
+    padding: 5px;
+    color: white;  
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+    display: inline-block;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 16pt;
+  }
+  .heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 36px;
+    background-color: #F3F1EE;
+  }
+  /* My UX Skills Section */
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 30px;
+    background-color: #F3F1EE;
+  }
+  p{
+  color:#13293D;
+  font-size: 16pt;
+  font-family: 'Jost', sans-serif;
+  }
+  
+  .heroImg p {
+    color: white;
+    font-size: 24pt;
+    font-family: 'Hind Guntur', sans-serif;
+  }
+  .about p {
+    padding-left: 10px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+    justify-content: space-between;
+  align-items: center;
+    text-align: center;
+  }
+  .policy{
+padding-left: 25px;
+padding-bottom: 25px;
+}
+.features{
+    display: inline-block;
+    padding: 60px 30px;
+    background-color: #BCE3E6;
+    align-items: center;
+}
+.featureBlock{
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    max-width: 50%;
+}
+.features h3{
+    color: #13293D;
+    font-size: 24pt;
+}
+.features p{
+    font-size:16pt;
+}
+.item1 {grid-area: left;}
+.item2 {grid-area: center;}
+.item3 {grid-area: right}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'left center right';
+    gap: 10px;
+}
+.grid-containter div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.modal-content p {
+  color:#13293D;
+}
+.modal-content ul {
+  list-style: none;
+  display: inline-block;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
